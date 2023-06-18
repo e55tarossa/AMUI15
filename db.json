@@ -1,0 +1,117 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "user",
+      "lastName": "1",
+      "email": "user1@gmail.com",
+      "dob": "2023-06-13T17:00:00.000Z",
+      "gender": "male",
+      "education": "Matric",
+      "company": "FPT",
+      "experience": 4,
+      "package": 23,
+      "id": 1
+    },
+    {
+      "firstName": "test dialog",
+      "lastName": "test",
+      "email": "oewqfko",
+      "dob": "2023-06-12T17:00:00.000Z",
+      "gender": "female",
+      "education": "Intermediate",
+      "company": "qefqw",
+      "experience": 1,
+      "package": 2,
+      "id": 2
+    },
+    {
+      "firstName": "helo",
+      "lastName": "grew",
+      "email": "aweg",
+      "dob": "2023-06-06T17:00:00.000Z",
+      "gender": "female",
+      "education": "Intermediate",
+      "company": "aweg",
+      "experience": 2,
+      "package": 2,
+      "id": 3
+    },
+    {
+      "firstName": "fwefa",
+      "lastName": "awefaw",
+      "email": "awefawe",
+      "dob": "2023-06-06T17:00:00.000Z",
+      "gender": "female",
+      "education": "Intermediate",
+      "company": "aw",
+      "experience": 2,
+      "package": 4,
+      "id": 4
+    },
+    {
+      "firstName": "wefaw",
+      "lastName": "wefwef",
+      "email": "ewfwef",
+      "dob": "2023-06-19T17:00:00.000Z",
+      "gender": "female",
+      "education": "Intermediate",
+      "company": "g",
+      "experience": 1,
+      "package": 1,
+      "id": 5
+    },
+    {
+      "firstName": "wefwe",
+      "lastName": "wefwe",
+      "email": "fewf",
+      "dob": "2023-06-11T17:00:00.000Z",
+      "gender": "female",
+      "education": "Intermediate",
+      "company": "wef",
+      "experience": 1,
+      "package": 1,
+      "id": 6
+    },
+    {
+      "firstName": "wefaw",
+      "lastName": "waefawef",
+      "email": "waefawe",
+      "dob": "2023-06-12T17:00:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "company": "awefaw",
+      "experience": 2,
+      "package": 2,
+      "id": 7
+    },
+    {
+      "firstName": "wefaw",
+      "lastName": "waefawe",
+      "email": "awefawe",
+      "dob": "2023-06-11T17:00:00.000Z",
+      "gender": "female",
+      "education": "Intermediate",
+      "company": "awef",
+      "experience": 2,
+      "package": 3,
+      "id": 8
+    }
+  ]
+}
