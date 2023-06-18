@@ -7,6 +7,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { DialogRef } from '@angular/cdk/dialog';
+import { CoreService } from './core/core.service';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +16,10 @@ import { DialogRef } from '@angular/cdk/dialog';
 })
 export class AppComponent implements OnInit {
   title = 'AngularMUCRUD';
-  constructor(private _dialog: MatDialog, private _empService : EmployeeService) {}
+  constructor(private _dialog: MatDialog, 
+    private _empService : EmployeeService,
+    private _coreService : CoreService
+    ) {}
   displayedColumns: string[] = [
     'id',
     'firstName',
@@ -77,7 +81,9 @@ export class AppComponent implements OnInit {
 
   deleteEmployee(id :any){
     this._empService.deleteEmployee(id).subscribe({
-      next : () => {alert("Delete Employee success"), this.getEmployeeList()},
+      next : () => {
+      this._coreService.openSnackBar('Employee deleted',"")
+      this.getEmployeeList()},
       error : (error) => { console.log(error);}
     })
   }
